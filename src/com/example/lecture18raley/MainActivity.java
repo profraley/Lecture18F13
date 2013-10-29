@@ -19,7 +19,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 		//and create a View hierarchy which is composed of actual Java Objects. 
 		setContentView(R.layout.activity_main);
 		
-		//findViewById() searches the View Hiearchy for a View whose id is equal to what is passes in as an argument.
+		//findViewById() searches the View Hierarchy for a View whose id is equal to what is passes in as an argument.
 		//findViewById() returns a View Object. If we want to get an actual instance of the correct object type, we need to cast it to that type.
 		mBlue = (Button) findViewById(R.id.blue);
 		mRed = (Button) findViewById(R.id.red);
